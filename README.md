@@ -2,8 +2,8 @@
 <h2>Service Quality Ai-based System is a cutting-edge platform designed to enhance customer service and support in various industries specifically in Arabic language. <br>
 The main three tasks of the model: 
 <ul> 
-    <li>Topic classification(TC) </li>
-    <li>Sentiment Analysis(SA)</li> 
+    <li>Topic classification</li>
+    <li>Sentiment Analysis</li> 
     <li>Solution Generation</li></ul> 
 However, we faced some challenges, difficulty accessing this sensitive information. To overcome this hurdle, web scraping is employed on governmental websites to gather relevant data related to citizen complaints.<br> 
 And the evaluation metrics were measured based on f1-score metric<br>
