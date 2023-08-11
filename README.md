@@ -6,7 +6,7 @@ The main three tasks of the model:
     <li>Sentiment Analysis</li> 
     <li>Solution Generation</li></ul> 
 However, we faced some challenges, difficulty accessing this sensitive information. To overcome this hurdle, web scraping is employed on governmental websites to gather relevant data related to citizen complaints.<br> 
-And the evaluation metrics were measured based on f1-score metric<br>
+And the evaluation was measured based on f1-score metric<br>
 <ul><li>95.8% for Topic Classifictio and 96% for Sentiment Analysis</li></ul>
 <br>
 The deployment process is applied using frontend and 
