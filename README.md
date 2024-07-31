@@ -37,7 +37,7 @@ In the paper, we:
 * introduce ```ArBench```, a multi-domain, multi-variety benchmark for Arabic naturaal language understanding based on 41 datasets across 5 different tasks and task clusters;
 * evaluate ARBERT and MARBERT on ArBench and compare against available language models.
 
-Our models establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
+Our model establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
 Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
 ## How to use ARBERT and MARBERT
