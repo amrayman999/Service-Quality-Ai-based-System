@@ -1,6 +1,6 @@
 # Service-Quality-Ai-based-System
-## Service Quality Ai-based System is a cutting-edge platform designed to enhance customer service and support in various industries specifically in Arabic language. <br>
-### The main three tasks of the model: 
+### Service Quality Ai-based System is a cutting-edge platform designed to enhance customer service and support in various industries specifically in Arabic language. <br>
+#### The main three tasks of the model: 
 <ul> 
     <li>Topic classification</li>
     <li>Sentiment Analysis</li> 
@@ -26,11 +26,11 @@ backend development with Django framework.
 
 ---
 
-# Used Models:
-## ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
+## Used Models:
+### ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic
 <img src="ARBERT_MARBERT.jpg" alt="drawing" width="30%" height="30%" align="right"/>
 
-## What is the repository is about?
+### What is the repository is about?
 This is the repository accompanying our project [ARBERT & MARBERT: Deep Bidirectional Transformers for Arabic].
 In the paper, we:
 * introduce ```ARBERT``` and ```MARBERT```, two powerful Transformer-based language models for Arabic;
@@ -40,9 +40,9 @@ In the paper, we:
 Our model establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
 Our language models are publicaly available for research (see below).
 The rest of this repository provides more information about our new language models, benchmark, and experiments.
-## How to use ARBERT and MARBERT
+### How to use ARBERT and MARBERT
 
-### Loading directly from Huggingface
+#### Loading directly from Huggingface
 You can use ARBERT and MARBERT with [Hugging Face's Transformers](https://github.com/huggingface/transformers) library as follow.
  
  ```python
