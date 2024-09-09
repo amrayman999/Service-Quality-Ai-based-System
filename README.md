@@ -1,6 +1,6 @@
 # Service-Quality-Ai-based-System
 ### Service Quality Ai-based System is a cutting-edge platform designed to enhance customer service and support in various industries specifically in Arabic language. <br>
-#### The main three tasks of the model: 
+#### The main three tasks of the Plateform: 
 <ul> 
     <li>Topic classification</li>
     <li>Sentiment Analysis</li> 
