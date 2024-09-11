@@ -7,7 +7,7 @@
     <li>Solution Generation</li>
 </ul> 
 <br>
-The deployment process is applied using frontend and 
+<h2>The deployment process is applied using frontend and 
 backend development with Django framework.
 </h2>
 <table>
