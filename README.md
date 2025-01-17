@@ -33,8 +33,8 @@ Hyperparameter optimization ensures the models perform optimally. This involves 
 ### 4. AI Models Utilized  
 | **Task**                | **Model**   | **Dataset**                  | **F1 Score** |
 |--------------------------|-------------|------------------------------|--------------|
-| **Topic Classification** | MARBERT     | Arabic customer queries      | 95.8%        |
-| **Sentiment Analysis**    | ARBERT      | Arabic sentiment dataset     | 96.0%        |
+| **Topic Classification** | MARBERT     | Merged Topics dataset    | 95.8%        |
+| **Sentiment Analysis**    | ARBERT      | 100k revs & glare dataset     | 96.0%        |
 | **Solution Generation**   | GPT, MT5    | Contextual solution dataset  | N/A          |
 
 - **Topic Classification**: Powered by the MARBERT model, optimized for Arabic tasks (F1 Score: 95.8%).  
@@ -72,10 +72,8 @@ The system is deployed using a robust **Django framework**, providing:
 
 ## Colab Notebooks  
 
-Explore the Colab notebooks for each task:  
-- [Topic Classification Notebook](#)  
-- [Sentiment Analysis Notebook](#)  
-- [Solution Generation Notebook](#)  
+Explore the Colab notebooks for:  
+- Topic Classification Notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Kyux7JPYJEbJKY3LjNZDhyezXChUQV0p?usp=sharing) 
 
 *Click the links above to access the respective Colab notebooks and view the implementation details.*
 
@@ -96,9 +94,9 @@ Explore the Colab notebooks for each task:
 * introduce ```ArBench```, a multi-domain, multi-variety benchmark for Arabic naturaal language understanding based on 41 datasets across 5 different tasks and task clusters;
 * evaluate ARBERT and MARBERT on ArBench and compare against available language models.
 
-Our model establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
-Our language models are publicaly available for research (see below).
-The rest of this repository provides more information about our new language models, benchmark, and experiments.
+Model establish new state-of-the-art (SOTA) on all 5 tasks/task clusters on 37 out of the 41 datasets.
+Language models are publicaly available for research (see below).
+The rest of this repository provides more information about the language models, benchmark, and experiments.
 ### How to use ARBERT and MARBERT
 
 #### Loading directly from Huggingface
