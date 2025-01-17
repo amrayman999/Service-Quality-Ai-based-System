@@ -1,12 +1,30 @@
-# Service-Quality-Ai-based-System
+## Service-Quality-Ai-based-System "From Dell Technology Use Cases"
+### 1. Intro![image](https://github.com/user-attachments/assets/8da3f876-1540-436d-b02c-180c2e5d563c)
 #### Service Quality AI-based System, is a state-of-the-art platform developed to revolutionize customer service and support, with a focus on Arabic-language industries. It achieves this through advanced natural language processing (NLP) techniques tailored to analyze customer interactions and generate solutions efficiently.
 #### The platform is designed to handle three primary tasks: <br>
 <ul> 
     <li><b>Topic Classification:</b> categorizing customer queries or interactions into predefined topics.</li>
-    <li><b>Sentiment Analysis:</b> identifying the emotional tone of customer interactions.</li>Sentiment Analysis: Identifying the emotional tone of customer interactions.
+    <li><b>Sentiment Analysis:</b> identifying the emotional tone of customer interactions.
     <li><b>Solution Generation:</b> providing actionable responses or solutions to customer queries.</li>
 </ul> 
-<br>
+-----------------------------------------------------------------------------------------------------------
+
+### 2. Data Gathering
+#### Data collection is accomplished using web scraping tools to gather relevant datasets from various online sources. The process ensures the data encompasses diverse scenarios and linguistic nuances in Arabic, supporting robust training of the AI models.
+
+#### Datasets![image](https://github.com/user-attachments/assets/35301d43-36b3-4921-a1c7-1428f576158b):
+<table>
+    <rw>
+        <td> sdasd</td>
+        <td> sdasd</td>
+    </rw>
+     <rw>
+        <td> sdasd</td>
+        <td> sdasd</td>
+    </rw>
+</table>
+
+
 <h2>The deployment process is applied using frontend and 
 backend development with Django framework.
 </h2>
