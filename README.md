@@ -37,10 +37,6 @@ Hyperparameter optimization ensures the models perform optimally. This involves 
 | **Sentiment Analysis**    | ARBERT      | 100k revs & glare dataset     | 96.0%        |
 | **Solution Generation**   | GPT, MT5    | Contextual solution dataset  | N/A          |
 
-- **Topic Classification**: Powered by the MARBERT model, optimized for Arabic tasks (F1 Score: 95.8%).  
-- **Sentiment Analysis**: Utilizes ARBERT for accurate sentiment identification (F1 Score: 96%).  
-- **Solution Generation**: Employs GPT and MT5 for contextual and actionable responses.  
-
 ### 5. Deployment  
 The system is deployed using a robust **Django framework**, providing:  
 - A seamless **frontend** and **backend** experience.  
