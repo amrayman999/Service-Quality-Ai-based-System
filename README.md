@@ -1,10 +1,10 @@
 # Service-Quality-Ai-based-System
-### Service Quality Ai-based System is a cutting-edge platform designed to enhance customer service and support in various industries specifically in Arabic language. <br>
-#### The main three tasks of the Plateform: 
+#### Service Quality AI-based System, is a state-of-the-art platform developed to revolutionize customer service and support, with a focus on Arabic-language industries. It achieves this through advanced natural language processing (NLP) techniques tailored to analyze customer interactions and generate solutions efficiently.
+#### The platform is designed to handle three primary tasks: <br>
 <ul> 
-    <li>Topic classification</li>
-    <li>Sentiment Analysis</li> 
-    <li>Solution Generation</li>
+    <li><b>Topic Classification:</b> categorizing customer queries or interactions into predefined topics.</li>
+    <li><b>Sentiment Analysis:</b> identifying the emotional tone of customer interactions.</li>Sentiment Analysis: Identifying the emotional tone of customer interactions.
+    <li><b>Solution Generation:</b> providing actionable responses or solutions to customer queries.</li>
 </ul> 
 <br>
 <h2>The deployment process is applied using frontend and 
