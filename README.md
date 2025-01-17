@@ -3,10 +3,16 @@
 ## Introduction  
 The **Service Quality AI-Based System** is a state-of-the-art platform developed to revolutionize customer service and support, with a focus on Arabic-language industries. It achieves this through advanced natural language processing (NLP) techniques tailored to analyze customer interactions and generate solutions efficiently.  
 
-### Key Features  
+### Key Features :
 - **Topic Classification**: Automatically categorizes customer queries into predefined topics (F1 Score: 95.8%).  
 - **Sentiment Analysis**: Identifies the emotional tone of customer interactions (F1 Score: 96%).  
 - **Solution Generation**: Provides actionable responses to customer queries.  
+
+### Technologies Used :
+- **Programming Language**: Python  
+- **Framework**: Django  
+- **AI Models**: MARBERT, ARBERT, GPT, MT5  
+- **Tools**: Web scraping tools, tokenization libraries, hyperparameter tuning methods  
 
 ---
 
@@ -61,14 +67,6 @@ The system is deployed using a robust **Django framework**, providing:
 1. **Data Input**: Customer queries are ingested into the system.  
 2. **Processing**: The platform performs topic classification, sentiment analysis, and solution generation.  
 3. **Output**: Contextual responses or solutions are provided in real time.
-
----
-
-## Technologies Used  
-- **Programming Language**: Python  
-- **Framework**: Django  
-- **AI Models**: MARBERT, ARBERT, GPT, MT5  
-- **Tools**: Web scraping tools, tokenization libraries, hyperparameter tuning methods  
 
 ---
 
