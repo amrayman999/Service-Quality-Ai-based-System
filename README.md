@@ -1,8 +1,7 @@
 # Service Quality AI-Based System
 
-<img src="img1.jpg" alt="drawing" width="30%" height="30%" align="right"/>
-
 ## Introduction  
+<img src="img1.jpeg" alt="drawing" width="35%" height="35%" align="right"/>
 The **Service Quality AI-Based System** is a state-of-the-art platform developed to revolutionize customer service and support, with a focus on Arabic-language industries. It achieves this through advanced natural language processing (NLP) techniques tailored to analyze customer interactions and generate solutions efficiently.  
 
 ### Key Features :
