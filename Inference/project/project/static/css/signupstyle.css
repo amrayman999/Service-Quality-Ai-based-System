@@ -1,0 +1,94 @@
+
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.register{
+    padding-top: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 900px;
+    
+}
+.register h1{
+    background-color: rgb(206, 199, 101);
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+.register form{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 50px;
+    position: absolute;
+    top: 35%;
+    left: 26%;
+    width: 500px;
+    height: 100vh;
+}
+.register label{
+    color: rgb(14, 13, 13);
+    font-size: 22px;
+    width: 500px;
+    display: inline-block;
+    padding: 10px;
+}
+.register input[type="text"]{
+    font-size: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register input[type="email"]{
+    font-size: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register input[id="password"]{
+    font-size: 16px;
+    padding: 15px 50px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register input[id="repassword"]{
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+.register button{  
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 120px;
+    padding: 10px 15px;
+    
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #1fab3d;
+    color: aliceblue;
+}  
+.register button:hover{
+    color: crimson;
+}
+.sign-in{
+    color: black;
+    margin: 20px 150px;
+}
+.Signin{
+    color:  rgb(13, 0, 255);
+    text-decoration: none;
+}

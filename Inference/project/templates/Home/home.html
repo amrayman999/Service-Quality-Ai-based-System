@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <meta name = "description" content="This Is Description For My First Page"/>
+        <style></style>
+        <link rel="stylesheet" href="{% static 'css/homestyle.css' %}"> 
+        <script></script>
+    </head>
+    <body id="bg" style="background-image: url('{% static "images/lamb1.jpg"%}');
+    background-repeat: no repeat;
+    background-size: 1800px 900px;
+    background-attachment: fixed;">
+        <div class="body">
+        
+                <!-- contact us info -->
+                <div class="in-line2" id="about-service">
+                    <h2>About service</h2>
+                    <P class="project-name">Service Quality<br> Ai-based <br> system</P>
+                </div>
+                <div id="description" class="in-line2">
+                    <p class="description-pragraph">Set your problem,question or complaint and then</p>
+                    <ul class="goals">
+                        <li>It will be determined if your sentiment is positive, negative, or neutral.</li>
+                        <li>It will be determined to any Governmental entity should be sent.</li>
+                        <li>You will get recommended action to do to help you with your problem.</li>
+                    </ul>
+                    <button>
+                        <a class ="Try" href="service"> Try it</a>
+                    </button>
+                </div>
+            </div>
+    </body>
+</html>
+{% endblock content %}

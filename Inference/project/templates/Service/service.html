@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static%}
+
+{% block content %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <meta name = "description" content="This Is Description For My First Page"/>
+        <style></style>
+        <link rel="stylesheet" href="{% static 'css/servicestyle.css' %}"> 
+        <script></script>
+    </head>
+    <body style="background-image: url('{% static "images/computer.jpg"%}');
+    background-repeat: no repeat;
+    background-size: 1800px 900px;
+    background-attachment: fixed;">
+       
+        <!-- contact us info -->
+        <div class="user-index">
+            <h1 class="complain">
+                Review
+            </h1>
+            <form method = "GET">
+                {{form.as_p}}
+                <button class="enter"> Enter </button>
+            </form>
+        
+        </div>
+    </body>
+</html>
+{% endblock content %}

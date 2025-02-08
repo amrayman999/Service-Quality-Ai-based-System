@@ -1,0 +1,57 @@
+
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.in-line2{
+    display: inline-block;
+    vertical-align: middle;
+}
+#about-service{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.in-line2 h2{
+    color: rgb(162, 197, 208);
+    margin-bottom: 0px;
+}
+.project-name{
+    margin-top: 0px;
+    font-size: 60px;
+}
+#description{
+    margin-top: 50px;
+    margin-left: 150px;
+    /* background-color: ; */
+}
+.description-pragraph{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.goals{
+    margin-top: 0px;
+    font-size: 20px;
+}
+li{
+    margin: 10px 0;
+}
+.Try{
+    text-decoration: none;
+    color: white;
+}
+button{
+    background-color: rgb(38, 192, 219); 
+    color: black;  
+    font-size: 25px;  
+    margin-top: 0px;
+    margin-left: 50px;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 1px ;
+    padding-bottom: 1px ;
+    border-radius: 5px;
+    text-decoration: none;
+    position:relative; 
+    top: 15px;
+}

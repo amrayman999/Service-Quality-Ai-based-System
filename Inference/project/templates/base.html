@@ -1,0 +1,26 @@
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'css/basestyle.css' %}">
+    <title>Service Quality</title>
+  </head>
+<body class="base">
+    <div class="topnav">
+        <div class="in-line">
+            <h1>Service Quality</h1>
+            <ul>    
+                <li><a class="Home" href="{% url 'home'%}">Home</a></li>
+                <li><a class="Services" href="{% url 'service'%}">Services</a></li>
+                <li><a class="About" href="{% url 'about'%}">About us</a></li>
+                <li><a class="Login" href="{% url 'login'%}">Login</a></li>
+                <li><a class="Sign-up" href="{% url 'signup'%}">Sign up</a></li>
+                <li><span>Hello, </span></li>
+                <li><span><a href = "{% url 'logout'%}">Logout</a></span></li>
+            </ul>
+        </div>
+    </div>
+<body>
+{% block content %}
+
+{% endblock content %}
+
+{% include 'contact us.html' %}

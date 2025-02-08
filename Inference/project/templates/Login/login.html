@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <meta name = "description" content="This Is Description For My First Page"/>
+        <style></style>
+        <link rel="stylesheet" href="{% static 'css/loginstyle.css' %}"> 
+        <script></script>
+    </head>
+    <body style="background-image: url('{% static "images/complaint.jpg"%}');
+    background-repeat: no repeat;
+    background-size: 1800px 900px;
+    background-attachment: fixed;">
+       
+            <!-- contact us info -->
+        <div class="in-line2">
+            <P class="project-name">Service Quality<br> Ai-based <br> system</P>
+        </div>
+        <div class="in-line2">
+            <!-- form for login -->
+            <form action="" method="POST">
+                {% csrf_token %}
+                <div>
+                    <!-- get Email from user-->
+                    <Label for="username">User name</Label>
+                    <input id="username" type="username" name = "username" placeholder="username" required>
+                </div>
+                <br>
+                <div>
+                    <!-- get password from user-->
+                    <Label for="password">Password</Label>
+                    <input id="password" type="password" name = "password" placeholder="password" maxlength="20" minlength="8" required>
+                </div>
+                <br>
+                <button type="submit" value="Login">Login</button>
+            </form>
+        </div>
+    </body>
+</html>
+{% endblock content %}

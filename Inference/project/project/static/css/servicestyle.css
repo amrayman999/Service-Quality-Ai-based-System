@@ -1,0 +1,41 @@
+
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.user-index{
+    border-radius: 10px;
+    background-color: rgb(21, 111, 127,0.95);
+    color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+p{
+    margin-left: 10px;
+}
+.complain{
+    color: rgb(242, 247, 255);
+    margin-bottom: 10px;
+    padding-top: 15px;
+    margin-left: 250px;
+}
+textarea{
+    border-right: 5px solid green;
+    width: 90%;
+    font-size: 20px;
+    direction: rtl;
+    resize: none;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.enter{
+    background-color: aquamarine;
+    border-radius: 12px;
+    margin-left: 45%;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: black;  
+    font-size: 25px;  
+}

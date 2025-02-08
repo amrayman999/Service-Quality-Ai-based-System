@@ -1,0 +1,58 @@
+
+.in-line2{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.project-name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    color: rgb(236, 217, 217);
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 0px;
+}
+form{
+    background-color: rgba(59,130,246,.5);
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 250px;
+    border-radius: 10px;
+
+}
+label{
+    color: white;
+    font-size: 22px;
+    width: 100px;
+    display: inline-block;
+    padding: 10px;
+}
+input[type="email"]{
+    width: 250px;
+    background-color: white;
+    font-size: 20px;
+    color: white;
+    border: 20px;
+}
+input[type="password"]{
+    width: 250px;
+    background-color: white;
+    font-size: 20px;
+    color: white;
+    border: 20px;
+}
+button{  
+    background-color: lightblue;  
+    color: black;  
+    font-size: 25px;  
+    border-radius: 10px;
+    position:relative; 
+    left: 150px;
+    top: 10px;
+}  

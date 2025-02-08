@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load static%}
+{% block content %}
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8"/> 
+        <meta name = "description" content="This Is Description For My First Page"/>
+        <style></style>
+        <link rel="stylesheet" href="{% static 'css/aboutstyle.css' %}"> 
+        <script></script>
+    </head>
+    <body style="background-image: url('{% static "images/workspace.jpg"%}');
+    background-repeat: no repeat;
+    background-size: 1800px 900px;
+    background-attachment: fixed;">
+        <div class="body">
+        <div class= "title">
+            <h2>
+                Welcome to Service Quality AI-Based System,a project<br>
+                dedicated to improving customer service and satisfaction in Arabic-speaking regions<br> through advanced natural language processing (NLP) technology.
+            </h2>
+        </div>
+        <div class= "paragraph1">
+            <P>
+                Our team of software developers are committed to developing cutting-edge tools and solutions <br>
+                that can help businesses and organizations provide better service to their <strong>Arabic-speaking customers</strong>. <br>
+                By leveraging the latest advancements in machine learning, data analytics,<br> 
+                and computational linguistics, we aim to create an AI-based system that can understand,<br> 
+                analyze, and respond to customer feedback and inquiries in Arabic with a high degree of accuracy and efficiency.
+            </P>
+        </div>
+        <div class= "paragraph2">
+            <P>
+                At the heart of our project is a deep appreciation for the unique challenges and nuances of Arabic language processing.<br>
+                As one of the most widely spoken languages in the world, Arabic presents a rich and complex set of linguistic features that require<br>
+                specialized expertise and attention. Our team brings together a diverse range of skills and backgrounds to address these challenges,<br>
+                including native Arabic speakers, computational linguistics experts, and experienced NLP researchers.<br><br>
+
+                We believe that our work can have a meaningful impact on the quality of service and customer satisfaction in Arabic-speaking regions, <br>
+                from large multinational corporations to small businesses and startups. By providing businesses with the tools and insights they need to understand and<br>
+                respond to their customers' needs, we hope to foster stronger relationships between businesses and their customers, and ultimately drive greater success and growth.
+            </P>
+        </div>
+        <div class= "end">
+            <P>
+                Thank you for your interest in Service Quality AI-Based System.<br>
+                We look forward to sharing our progress and achievements with you as we<br>
+                continue to push the boundaries of NLP research and development in the Arabic language.
+            </P>
+        </div>
+    </body>
+</html>
+{% endblock content%}
