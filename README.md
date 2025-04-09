@@ -1,7 +1,7 @@
 # Service Quality AI-Based System
 
 ## Project Demo
-[](ProjectDemo.gif)
+![](ProjectDemo.gif)
 
 ## Introduction  
 <img src="img1.jpeg" alt="drawing" width="35%" height="35%" align="right"/>
